@@ -1,0 +1,10 @@
+/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/CMakeFiles/install/local.dir
+/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/CMakeFiles/list_install_components.dir
+/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/CMakeFiles/edit_cache.dir
+/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/CMakeFiles/rebuild_cache.dir
+/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/CMakeFiles/package_source.dir
+/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/CMakeFiles/package.dir
+/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/CMakeFiles/dist.dir
+/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/CMakeFiles/install/strip.dir
+/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/CMakeFiles/install.dir
+/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/CMakeFiles/freetype.dir
