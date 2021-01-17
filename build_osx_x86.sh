@@ -6,5 +6,7 @@ cd build
 make
 cd ..
 
-mkdir -p ../infistd/lib/osx/x86/
-cp -v ./build/libfreetype.a ../infistd/lib/osx/x86/
+mkdir -p ../infistd/lib/osx/x86/bin
+mkdir -p ../infistd/lib/osx/x86/debug
+cp -v ./build/libfreetype.a ../infistd/lib/osx/x86/bin
+cp -v ./build/libfreetype.a ../infistd/lib/osx/x86/debug

@@ -6,7 +6,7 @@ C_DEFINES = -DFT2_BUILD_LIBRARY
 
 C_INCLUDES = -I/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/include -I/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/include
 
-C_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk
+C_FLAGSx86_64 =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk
 
-C_FLAGS =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk
+C_FLAGS =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk
 
