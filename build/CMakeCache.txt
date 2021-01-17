@@ -14,15 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Path to a file.
-BZIP2_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include
-
-//Path to a library.
-BZIP2_LIBRARY_DEBUG:FILEPATH=BZIP2_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-BZIP2_LIBRARY_RELEASE:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libbz2.tbd
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -228,14 +219,11 @@ HARFBUZZ_LIBRARIES:FILEPATH=HARFBUZZ_LIBRARIES-NOTFOUND
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/local/bin/pkg-config
 
-//Path to a library.
-PNG_LIBRARY_DEBUG:FILEPATH=PNG_LIBRARY_DEBUG-NOTFOUND
+//No help, variable specified on the command line.
+WITH_BZip2:UNINITIALIZED=OFF
 
-//Path to a library.
-PNG_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libpng.dylib
-
-//Path to a file.
-PNG_PNG_INCLUDE_DIR:PATH=/usr/local/include
+//No help, variable specified on the command line.
+WITH_PNG:UNINITIALIZED=OFF
 
 //Path to a file.
 ZLIB_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include
@@ -250,7 +238,7 @@ ZLIB_LIBRARY_RELEASE:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX11.
 freetype_BINARY_DIR:STATIC=/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build
 
 //Dependencies for the target
-freetype_LIB_DEPENDS:STATIC=general;/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libz.tbd;general;/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libbz2.tbd;general;/usr/local/lib/libpng.dylib;general;/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libz.tbd;
+freetype_LIB_DEPENDS:STATIC=general;/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libz.tbd;
 
 //Value Computed by CMake
 freetype_SOURCE_DIR:STATIC=/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9
@@ -260,14 +248,6 @@ freetype_SOURCE_DIR:STATIC=/Users/guanmingtao/workspace/sourcecode/infiallrepos/
 # INTERNAL cache entries
 ########################
 
-//ADVANCED property for variable: BZIP2_INCLUDE_DIR
-BZIP2_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BZIP2_LIBRARY_DEBUG
-BZIP2_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BZIP2_LIBRARY_RELEASE
-BZIP2_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//Have symbol BZ2_bzCompressInit
-BZIP2_NEED_PREFIX:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -444,12 +424,6 @@ PC_HARFBUZZ_harfbuzz_PREFIX:INTERNAL=
 PC_HARFBUZZ_harfbuzz_VERSION:INTERNAL=
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PNG_LIBRARY_DEBUG
-PNG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PNG_LIBRARY_RELEASE
-PNG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PNG_PNG_INCLUDE_DIR
-PNG_PNG_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_INCLUDE_DIR
 ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_DEBUG

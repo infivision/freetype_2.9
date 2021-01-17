@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = -DFT2_BUILD_LIBRARY
 
-C_INCLUDES = -I/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/include -I/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/include -I/usr/local/include
+C_INCLUDES = -I/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/build/include -I/Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/include
 
 C_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk
 

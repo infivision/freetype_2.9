@@ -376,9 +376,6 @@ CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o: ../src/sfnt/ttpost.c
 CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o: ../src/sfnt/ttpost.h
 CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o: ../src/sfnt/ttsbit.c
 CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o: ../src/sfnt/ttsbit.h
-CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o: /usr/local/include/png.h
-CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o: /usr/local/include/pngconf.h
-CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o: /usr/local/include/pnglibconf.h
 
 CMakeFiles/freetype.dir/src/smooth/smooth.c.o: ../include/freetype/config/ftheader.h
 CMakeFiles/freetype.dir/src/smooth/smooth.c.o: ../include/ft2build.h

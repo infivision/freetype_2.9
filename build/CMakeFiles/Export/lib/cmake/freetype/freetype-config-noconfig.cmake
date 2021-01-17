@@ -9,7 +9,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set_property(TARGET freetype APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(freetype PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LINK_INTERFACE_LIBRARIES_NOCONFIG "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libz.tbd;/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libbz2.tbd;/usr/local/lib/libpng.dylib;/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libz.tbd"
+  IMPORTED_LINK_INTERFACE_LIBRARIES_NOCONFIG "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libz.tbd"
   IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libfreetype.a"
   )
 

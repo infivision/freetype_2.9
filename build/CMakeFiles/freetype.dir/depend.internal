@@ -377,9 +377,6 @@ CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o
  /Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/src/sfnt/ttpost.h
  /Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/src/sfnt/ttsbit.c
  /Users/guanmingtao/workspace/sourcecode/infiallrepos/freetype_2.9/src/sfnt/ttsbit.h
- /usr/local/include/png.h
- /usr/local/include/pngconf.h
- /usr/local/include/pnglibconf.h
 CMakeFiles/freetype.dir/src/smooth/smooth.c.o
  ../include/freetype/config/ftheader.h
  ../include/ft2build.h
