@@ -6,5 +6,5 @@ cmake ..
 make
 cd ..
 
-cp build/lib/libgtest.a ../infistd/lib/linux/x86
-cp -v ./build/lib/*.a ../infistd/lib/linux/x86/
+cp -v ./build/libfreetype.a ../infistd/lib/linux/x86/bin
+cp -v ./build/libfreetype.a ../infistd/lib/linux/x86/debug
